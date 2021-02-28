@@ -23,11 +23,11 @@ a {
 	font-family: 'Work Sans';
 	color: red;
 }
-.center {
+.centercolumn {
 	column-count: 1;
   	margin: auto;
-  	width: 45%;
-  	border: 3px solid green;
+  	width: 1000px;
+  	/* border: 3px solid green; */
   	padding: 10px;
 	max-width: 100%;
     height: auto;
