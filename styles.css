@@ -26,11 +26,9 @@ a {
 .centercolumn {
 	column-count: 1;
   	margin: auto;
-  	width: 1000px;
+  	width: 45%;
   	/* border: 3px solid green; */
   	padding: 10px;
-	max-width: 100%;
-    height: auto;
   }
   
 .social {
@@ -42,3 +40,10 @@ a {
 .social:hover {
 	opacity: 0.5;
   }
+
+/* Tablets resize */
+@media screen and (max-width: 800px) {
+	.centercolumn {
+	width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+	}
+}
