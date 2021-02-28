@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@663&display=swap');
 
 body {
-	background-color: rgb(24, 24, 24);
+	background-color: rgb(16, 16, 16);
     font-family: 'Rubik';
 	font-size: 20px;
 	color:white;
@@ -27,6 +27,18 @@ a {
 	column-count: 1;
   	margin: auto;
   	width: 45%;
-  	/* border: 3px solid green; */
+  	border: 3px solid green;
   	padding: 10px;
+	max-width: 100%;
+    height: auto;
+  }
+  
+.social {
+	opacity: 1;
+	width: 25px;
+	height: 25px;
+}
+
+.social:hover {
+	opacity: 0.5;
   }
