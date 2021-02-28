@@ -24,10 +24,8 @@ a {
 	color: red;
 }
 .centercolumn {
-	/* column-count: 1; */
   	margin: auto;
   	width: 45%;
-  	/* border: 3px solid green; */
   	padding: 10px;
   }
   
