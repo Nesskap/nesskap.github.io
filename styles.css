@@ -24,7 +24,7 @@ a {
 	color: red;
 }
 .centercolumn {
-	column-count: 1;
+	/* column-count: 1; */
   	margin: auto;
   	width: 45%;
   	/* border: 3px solid green; */
@@ -40,10 +40,3 @@ a {
 .social:hover {
 	opacity: 0.5;
   }
-
-/* Tablets resize */
-@media screen and (max-width: 800px) {
-	.centercolumn {
-	width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-	}
-}
