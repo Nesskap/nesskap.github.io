@@ -18,16 +18,31 @@ p{
 	line-height: 1.6;
 }
 
-a {
+a{
 	text-decoration:none;
 	font-family: 'Work Sans';
 	color: red;
 }
+
+a:hover {
+	opacity: 0.6;
+}
+
+#hl1{
+	font-size: 12px; 
+	bottom: 1px;
+	color:white;
+}
+
+#hl1:hover {
+	color: red;
+}
+
 .centercolumn {
   	margin: auto;
   	width: 45%;
   	padding: 10px;
-  }
+}
   
 .social {
 	opacity: 1;
@@ -37,10 +52,10 @@ a {
 
 .social:hover {
 	opacity: 0.5;
-  }
+}
 
 @media screen and (max-width: 800px) {
 	.centercolumn {
 		width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
 	}
- }
+}
