@@ -27,8 +27,6 @@ a {
   	margin: auto;
   	width: 45%;
   	padding: 10px;
-	max-width: 100%;
-	height: auto;
   }
   
 .social {
@@ -40,3 +38,9 @@ a {
 .social:hover {
 	opacity: 0.5;
   }
+
+@media screen and (max-width: 800px) {
+	.centercolumn {
+		width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+	}
+ }
