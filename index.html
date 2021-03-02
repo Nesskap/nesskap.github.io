@@ -7,6 +7,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+
+        <!-- Header Division -->
+
+        <div class="header">
+            ANDRES CARDONA | 3D Generalist
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="javascript:void(0);" class="icon" onclick="menuDropdown()">
+                <img src="images/icons/menu-icon.png" alt="menu" width="52" height="52">
+              </a>
+            <a href="#home">Work</a>
+            <a href="#news">Concept Art</a>
+            <a href="#about" class="active">About</a>
+        </div>
+        <!--  -->
+
+        <!-- Content Column -->
+
         <div class="centercolumn">
             <h1>About</h1>    
             <p>
@@ -46,5 +64,18 @@
 
             <a id="hl1" href="index.html">ANDRES CARDONA | PORTFOLIO</a>
         </div>
+        <!--  -->
+
+        <script>
+            function menuDropdown() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+
     </body>
 </html>

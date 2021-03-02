@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@663&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 
 body {
 	background-color: rgb(16, 16, 16);
@@ -10,6 +11,7 @@ body {
 
 h1	{
 	font-family: Work Sans;
+	font-weight: 663;
 	color: white;
 	column-span: all;
 }
@@ -18,9 +20,40 @@ p{
 	line-height: 1.6;
 }
 
+.topnav {
+	overflow: hidden;
+	list-style-type: none;
+	margin: auto;
+  	padding: 10px;
+	line-height: normal;
+	width: 95%;
+	/* border: 3px solid red; */
+}
+
+.topnav a {
+	float: right;
+	display: block;
+	color:white;
+  	text-align: center;
+	padding: 0px 10px;
+}
+
+.topnav a.active {
+	color: red;
+}
+
+.topnav a.active:hover {
+	opacity: 1;
+}
+
+.topnav .icon {
+	display: none;
+}
+
 a{
 	text-decoration:none;
 	font-family: 'Work Sans';
+	font-weight: 663;
 	color: red;
 }
 
@@ -28,6 +61,7 @@ a:hover {
 	opacity: 0.6;
 }
 
+/* Hyperlink HL Styles */
 #hl1{
 	font-size: 12px; 
 	bottom: 1px;
@@ -42,6 +76,18 @@ a:hover {
   	margin: auto;
   	width: 45%;
   	padding: 10px;
+	/* border: 3px solid red; */
+}
+
+.header {
+	margin: auto;
+  	width: 95%;
+	height: 150px;
+	line-height: 150px;
+  	padding: 10px;
+	font-family: Work Sans;
+	font-weight: 300;
+	/* border: 3px solid red; */
 }
   
 .social {
@@ -56,6 +102,28 @@ a:hover {
 
 @media screen and (max-width: 800px) {
 	.centercolumn {
-		width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+		width: 95%; /* The width is 90%, when the viewport is 800px or smaller */
+	}
+
+	.topnav a {display: none;}
+  	.topnav a.icon {
+    float: right;
+    display: block;
+  	}
+}
+
+@media screen and (max-width: 800px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .icon {
+	  position: relative;
+	  right: 0;
+	  top: 0;
+	}
+	.topnav.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: right;
+	  background-color: grey;
+	  line-height: 2;
 	}
 }
