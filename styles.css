@@ -24,7 +24,15 @@ p{
 
 img {
 	max-width: 100%;
+	height: auto;
+	padding: 5px;
 }
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+  }
 
 .topnav {
 	overflow: hidden;
@@ -39,17 +47,18 @@ img {
 .topnav a {
 	float: right;
 	display: block;
-	color:white;
+	/* color:white; */
   	text-align: center;
 	padding: 0px 10px;
 }
 
 .topnav a.active {
-	color: red;
+	color: white;
 }
 
 .topnav a.active:hover {
-	opacity: 1;
+	text-decoration:none;
+	opacity: 0.8;
 }
 
 .topnav .icon {
@@ -64,7 +73,8 @@ a{
 }
 
 a:hover {
-	opacity: 0.6;
+	text-decoration:none;
+	color: white;
 }
 
 /* Hyperlink HL Styles */
