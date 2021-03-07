@@ -228,6 +228,12 @@ a:hover {
 		width: 95%; /* The width is 90%, when the viewport is 800px or smaller */
 	}
 
+	.workImg {
+		width: 512px;
+		height: 512px;
+		object-fit: cover;
+	}
+
 	.topnav a {display: none;}
   	.topnav a.icon {
     float: right;
