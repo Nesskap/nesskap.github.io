@@ -71,6 +71,11 @@ img {
 	display: none;
 }
 
+.inactiveLink {
+	pointer-events: none;
+	cursor: default;
+ }
+
 a{
 	text-decoration:none;
 	font-family: 'Work Sans';

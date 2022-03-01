@@ -7,11 +7,11 @@ function menuDropdown() {
   }
 }
 
-function passwordCheck(){
-  if(document.getElementById('password').value == 'onlyyouknowit'){
-      return true;
-  }else{
-    alert('Wrong Password');
-    return false;
-  }
-}
+// function passwordCheck(){
+//   if(document.getElementById('password').value == 'onlyyouknowit'){
+//       return true;
+//   }else{
+//     alert('Wrong Password');
+//     return false;
+//   }
+// }
