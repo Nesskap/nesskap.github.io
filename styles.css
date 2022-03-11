@@ -71,6 +71,7 @@ img {
 	display: none;
 }
 
+/* Add the class to the a tag to make it unclickable Example: <a href="" class="inactiveLink"> */
 .inactiveLink {
 	pointer-events: none;
 	cursor: default;
